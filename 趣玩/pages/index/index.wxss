@@ -1,0 +1,21 @@
+/**index.wxss**/
+.container {
+
+  /* 覆盖整个容器 */
+  height: 100%;
+  width: 100%;
+  
+}
+.cnp{
+  width: 354rpx; height: 299rpx; display: block; box-sizing: border-box; left: -154rpx; top: -1239rpx; position: relative;
+}
+.bg{
+  width: 100%; 
+  height: 100%;
+}
+.dr{
+  position: relative; left: 0rpx; top: -900rpx
+}
+.fp{
+  position: relative; left: 179rpx; top: -1756rpx; width: 258rpx; height: 224rpx; display: block; box-sizing: border-box
+}

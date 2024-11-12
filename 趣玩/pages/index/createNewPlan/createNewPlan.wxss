@@ -1,0 +1,34 @@
+/* pages/index/index.wxss */
+.bg-container {
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  display: flex; /* 启用Flexbox布局 */
+  flex-direction: column; /* 垂直排列子元素 */
+  align-items: center; /* 水平居中对齐子元素 */
+  justify-content: center; /* 垂直居中对齐子元素 */
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+.input-card {
+  width: 50%; /* 根据需要调整宽度 */
+  margin: 20rpx 0; /* 设置上下外边距，保持输入框之间的间距 */
+  padding: 20rpx;
+  background-color: rgba(255, 255, 255, 0.7); /* 半透明背景 */
+  border-radius: 10rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+}
+
+.input-travelName, .input-travelDate, .input-travelPlace {
+  width: 100%;
+  height: 40rpx;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #ccc; /* 灰色字体 */
+  font-size: 14px; /* 字体大小 */
+}

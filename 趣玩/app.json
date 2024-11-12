@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/friends/friends",
+    "pages/traverlogue/continuing",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/index/footprint/footprint",
+    "pages/index/createNewPlan/createNewPlan"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#C9F29C",
+    "navigationBarTitleText": "趣玩"
+  },
+  "tabBar": {
+    "color": "#4F4F4F",
+    "selectedColor": "#567722",
+    "backgroundColor": "#EAF0DA",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/friends/friends",
+        "text": "趣友"
+      },
+      {
+        "pagePath": "pages/traverlogue/continuing",
+        "text": "游记"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

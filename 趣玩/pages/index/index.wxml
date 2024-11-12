@@ -1,0 +1,7 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+  <image class ="bg" src="/image/bg1.jpg" mode="widthFix" />
+  <image class="cnp" src="/image/createNewPlan.png" mode="widthFix" bindtap="onCnpTap"/>
+  <image class="dr" src="/image/dateRemind.png" mode="widthFix"/>
+  <image class="fp" src="/image/footprint.png" mode="widthFix" bindtap="onFpTap"/>
+</view>

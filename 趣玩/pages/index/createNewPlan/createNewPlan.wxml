@@ -1,0 +1,13 @@
+<!-- pages/index/index.wxml -->
+<view class="bg-container">
+  <image class="bg" src="/image/bg2.jpg" mode="widthFix" />
+  <view class="input-card" style="position: absolute; left: 375rpx; top: 322rpx">
+    <input class="input-travelName" placeholder="为这次旅行取一个名字吧" />
+  </view>
+  <view class="input-card" style="position: absolute; left: 375rpx; top: 447rpx">
+    <input class="input-travelDate" placeholder="确定好旅游开始时间吧" />
+  </view>
+  <view class="input-card" style="position: absolute; left: 375rpx; top: 575rpx">
+    <input class="input-travelPlace" placeholder="选择好旅游地点吧" />
+  </view>
+</view>
